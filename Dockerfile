@@ -2,6 +2,7 @@
 FROM ubuntu:18.04
 
 # Install python and pip
+RUN apt-get update && apt-get install -y apt-transport-https
 RUN apt-get install -y python3 python3-pip bash
 ADD ./webapp/requirements.txt /tmp/requirements.txt
 
