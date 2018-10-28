@@ -1,9 +1,9 @@
 #Grab the latest ubuntu image
 FROM ubuntu:18.04
 
-# Install python and pip
+# Install python and pip and pandoc
 RUN apt-get update && apt-get install -y apt-transport-https
-RUN apt-get install -y python3 python3-pip bash
+RUN apt-get install -y python3 python3-pip bash pandoc
 ADD ./webapp/requirements.txt /tmp/requirements.txt
 
 # Install dependencies
