@@ -25,7 +25,11 @@ heroku open
 
 and a hello world should appear.
 
+**this is verified to work**
+
 Part 2: then switch to ubuntu, get texlive and pandoc in, and make sure that works.
 
 Steps: 
-Switch to fancy new branch??
+Switch to `alpine` branch.
+Hopefully the readme on that branch will contain working instructions, assuming you've already the heroku steps in part 1 (updating the CLI, creating the app, etc.)
+
