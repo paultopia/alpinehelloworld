@@ -40,3 +40,9 @@ heroku open
 (See [this page](https://devcenter.heroku.com/articles/git#deploying-code) on deploying non-master branches to heroku.)
 
 **this is also verified to work, yay!**
+
+Part 3: make sure that other commandline tools can be used from APT, which is the point, since [the apt buildpack for the non-dockerized version of heroku seems to be a nonworking dumpster fire](https://stackoverflow.com/questions/53035971/how-to-get-heroku-apt-buildpack-to-build)
+
+switch to branch pandoc
+as before, follow instructions there.
+
