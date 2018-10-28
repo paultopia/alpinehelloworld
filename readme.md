@@ -38,3 +38,5 @@ heroku open
 ```
 
 (See [this page](https://devcenter.heroku.com/articles/git#deploying-code) on deploying non-master branches to heroku.)
+
+**this is also verified to work, yay!**
