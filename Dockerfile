@@ -17,7 +17,8 @@ WORKDIR /opt/webapp
 # EXPOSE 5000 		
 
 # Run the image as a non-root user
-RUN adduser -D myuser
+RUN adduser --disabled-password --gecos '' myuser
+# see: https://stackoverflow.com/questions/27701930/add-user-to-docker-container
 USER myuser
 
 # Run the app.  CMD is required to run on Heroku
