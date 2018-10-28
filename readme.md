@@ -30,6 +30,6 @@ and a hello world should appear.
 Part 2: then switch to ubuntu, get texlive and pandoc in, and make sure that works.
 
 Steps: 
-Switch to `alpine` branch.
+Switch to `ubuntu` branch.
 Hopefully the readme on that branch will contain working instructions, assuming you've already the heroku steps in part 1 (updating the CLI, creating the app, etc.)
 
