@@ -1,8 +1,8 @@
-#Grab the latest alpine image
-FROM alpine:latest
+#Grab the latest ubuntu image
+FROM ubuntu:18.04
 
 # Install python and pip
-RUN apk add --no-cache --update python3 py3-pip bash
+RUN apt-get install -y python3 python3-pip bash
 ADD ./webapp/requirements.txt /tmp/requirements.txt
 
 # Install dependencies
