@@ -56,7 +56,7 @@ make sure that other commandline tools can be used from APT, which is the point,
 git checkout pandoc
 git push heroku pandoc:master
 heroku open
-``
+```
 
 **also verified to work!!**
 
