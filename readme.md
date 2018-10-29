@@ -34,7 +34,7 @@ and a hello world should appear.
 
 ## Part 2
 
-then switch to ubuntu, get texlive and pandoc in, and make sure that works.
+then switch to ubuntu and make sure that works.
 
 Steps: 
 ```
